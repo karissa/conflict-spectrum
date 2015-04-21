@@ -1,6 +1,6 @@
 {
   "name": "test-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "some datsets for testing and whatnot",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "undefined"
+    "url": "git://github.com/karissa/test-data.git"
   },
+  "bugs": {
+    "url": "https://github.com/karissa/test-data/issues"
+  },
+  "homepage": "https://github.com/karissa/test-data",
   "keywords": [
     "test",
     "data"
