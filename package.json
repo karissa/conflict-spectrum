@@ -1,0 +1,19 @@
+{
+  "name": "test-data",
+  "version": "1.0.0",
+  "description": "some datsets for testing and whatnot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "undefined"
+  },
+  "keywords": [
+    "test",
+    "data"
+  ],
+  "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
+  "license": "ISC"
+}
