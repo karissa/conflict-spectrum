@@ -8,21 +8,21 @@ COUNTRIES_1 = [{country: 'germany', capital: null},
                     {country: 'spain', capital: 'madrid'}]
 
 COUNTRIES_2 =  [{country: 'germany', code: 'de', capital: 'berlin'},
+                     {country: 'ireland', code: 'ie', capital: 'dublin'},
+                     {country: 'france', code: 'fr', capital: 'paris'},
+                     {country: 'spain', code: 'es', capital: 'barcelona'},
                      {country: 'germany1', code: 'de', capital: 'berlin'},
                      {country: 'germany2', code: 'de', capital: 'berlin'},
                      {country: 'germany3', code: 'de', capital: 'berlin'},
                      {country: 'germany4', code: 'de', capital: 'berlin'},
                      {country: 'germany5', code: 'de', capital: 'berlin'},
                      {country: 'germany6', code: 'de', capital: 'berlin'},
-                     {country: 'germany7', code: 'de', capital: 'berlin'},
-                     {country: 'ireland', code: 'ie', capital: 'dublin'},
-                     {country: 'france', code: 'fr', capital: 'paris'},
-                     {country: 'spain', code: 'es', capital: 'barcelona'}]
+                     {country: 'germany7', code: 'de', capital: 'berlin'}]
 
-DATA = {
-  CONFLICTS: {
-    SMALL: [COUNTRIES_0, COUNTRIES_1, COUNTRIES_2]
-  }
-}
+
+DATA = {}
+DATA.CONFLICTS = {}
+DATA.CONFLICTS.SMALL = [COUNTRIES_0, COUNTRIES_1, COUNTRIES_2]
+
 
 module.exports = DATA
