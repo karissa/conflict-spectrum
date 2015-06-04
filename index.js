@@ -20,9 +20,11 @@ COUNTRIES_2 =  [{country: 'germany', code: 'de', capital: 'berlin'},
                      {country: 'germany7', code: 'de', capital: 'berlin'}]
 
 
-DATA = {}
-DATA.CONFLICTS = {}
-DATA.CONFLICTS.SMALL = [COUNTRIES_0, COUNTRIES_1, COUNTRIES_2]
-
+DATA = [
+  {
+    json: [COUNTRIES_0, COUNTRIES_1, COUNTRIES_2],
+    name: 'progressive three-way conflict'
+  }
+]
 
 module.exports = DATA
